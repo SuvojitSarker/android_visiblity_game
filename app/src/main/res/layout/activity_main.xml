@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#A5D6A7"
+    android:layout_margin="10dp"
+    android:id="@+id/mainLayout"
+    >
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/ucantseeme"
+        android:scaleType="centerCrop"
+        android:visibility="invisible"
+        />
+
+    <Button
+        android:id="@+id/bshow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Visible Image" />
+
+    <Button
+        android:id="@+id/bgone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Make Image Invisible" />
+
+    <Button
+        android:id="@+id/tsnap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thanos Snap" />
+
+    <Button
+        android:id="@+id/sToast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="toast button" />
+</LinearLayout>
+
